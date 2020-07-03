@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hierarchical-data"
+version = "0.1.0"
+description = ""
+authors = ["Christian Rojas <cjrojas72@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.0.7"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.5.3"
+autopep8 = "^1.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
